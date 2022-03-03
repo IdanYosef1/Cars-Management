@@ -1,0 +1,77 @@
+body {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+  display: grid;
+}
+
+@media only screen and (max-width: 100px) {
+  body {
+    overflow-x: scroll;
+  }
+}
+
+nav {
+  background-color: rgba(95, 248, 81, 0.6);
+}
+
+.divAll {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.divLogin {
+  background-color: rgba(177, 177, 177, 0.65);
+  height: 390px;
+  width: 400px;
+}
+
+.divMain {
+  padding-bottom: 280px;
+}
+
+/* div in create.html and edit.html */
+.divCrAndEd {
+  background-color: rgba(177, 177, 177, 0.65);
+  height: 520px;
+  width: 400px;
+}
+
+/* spans in create.html and edit.html */
+.card-body span {
+  color: rgb(0, 1, 59);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* h1 in main.html */
+.h1-main {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+tr {
+  text-align: center;
+}
+
+/* button logout */
+.container-fluid button {
+  margin-left: auto;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
