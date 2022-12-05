@@ -4,7 +4,7 @@ Car management site. Allows you to watch, create, update and delete car details.
 
 ## Live demo
 
-https://carsmanagement.herokuapp.com/
+https://cars-management.netlify.app/
 
 ## Technologies
 
